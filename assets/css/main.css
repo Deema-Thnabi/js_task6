@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/DALA-DECORs-Banner.png);
+    background-size: 100%;
+    background-position:top center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    width: 85.2%;
+    margin: auto;
+}
+
+/* navbar */
+nav{
+    background-color: #2125298b;
+    height: 72px;
+    position: sticky;
+    top:0;
+}
+
+nav .container{
+    position: relative;
+}
+
+
+
+.link{
+    position: absolute;
+    right:0;
+    top:24px; 
+    word-spacing:20px;
+
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:380;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2.2px;
+    margin-right: 6px;
+
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
+    color: #9c9fa5;
+    transition: color 0.5s;
+}
+.fa-cart-shopping:hover{
+    color: rgb(240, 226, 226);
+}
+
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    height:100%;
+    width: 400px;;
+    position:absolute;
+    right: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.fa-xmark{
+    font-size: 26px;
+    color: rgb(117, 111, 111);
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    transition: color 0.5s;
+}
+.fa-xmark:hover{
+    color: rgb(140, 33, 33);
+}
+
+.content{
+    padding: 30px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.cart-content, .title{
+    display: flex;
+    gap: 30px;
+}
+
+.cart-content{
+    margin-bottom: 30px;;
+}
+
+img{
+    width: 80px;;
+    display: flex;
+}
+
+
+
+h2{
+    font-size: 20px;
+}
+
+p, label{
+    font-size: 15px;
+}
+
+.color{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type=number]{
+    width: 25px;;
+}
+
+.price{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 100px;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   font-weight: 530;
+   margin-top: -10px;
+}
+
+
+input[type=button]{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 8px 130px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    box-shadow:0px 8px 15px  rgba(0,0,0,0.6);
+    transition: color 0.5s;
+}
+
+input[type=button]:hover{
+    color: antiquewhite ;
+}
+
+.display{
+    display: none;
+}
+
+
+
+
+
